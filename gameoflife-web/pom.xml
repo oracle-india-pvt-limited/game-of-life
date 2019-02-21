@@ -13,7 +13,7 @@
 
     <properties>
         <jetty.port>9090</jetty.port>
-        <jetty.http.port>9999</jetty.http.port>
+        <jetty.http.port>9090</jetty.http.port>
         <jetty.stop.port>9999</jetty.stop.port>
     </properties>
 
@@ -32,6 +32,11 @@
               <artifactId>jetty-maven-plugin</artifactId>
               <version>9.3.0.v20150612</version>
               <configuration>
+                <httpConnector>
+                    <!--host>localhost</host-->
+                    <port>9090</port>
+                   </httpConnector>
+                </configuration>  
                   <scanIntervalSeconds>10</scanIntervalSeconds>
                   <httpConnector>
                       <port>${jetty.port}</port>
