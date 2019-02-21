@@ -32,13 +32,8 @@
               <artifactId>jetty-maven-plugin</artifactId>
               <version>9.3.0.v20150612</version>
               <configuration>
-                <httpConnector>
-                    <!--host>localhost</host-->
-                    <port>9090</port>
-                   </httpConnector>
-                </configuration>  
                   <httpConnector>
-                      <port>${jetty.port}</port>
+                      <port>9090</port>
                       <idleTimeout>60000</idleTimeout>
                   </httpConnector>
                   <stopKey>foo</stopKey>
