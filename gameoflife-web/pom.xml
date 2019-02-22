@@ -25,8 +25,6 @@
             </resource>
         </resources>
         <plugin>
-          <plugin>
-          <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-maven-plugin -->
               <groupId>org.eclipse.jetty</groupId>
               <artifactId>jetty-maven-plugin</artifactId>
               <version>${jetty.plugin.version}</version>
