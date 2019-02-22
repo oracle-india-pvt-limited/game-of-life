@@ -13,7 +13,6 @@
 
     <properties>
         <jetty.port>9090</jetty.port>
-        <jetty.http.port>9090</jetty.http.port>
         <jetty.stop.port>9999</jetty.stop.port>
     </properties>
 
