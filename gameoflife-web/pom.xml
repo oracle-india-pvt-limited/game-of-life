@@ -31,6 +31,7 @@
               <artifactId>jetty-maven-plugin</artifactId>
               <version>9.3.0.v20150612</version>
               <configuration>
+                    <scanIntervalSeconds>2</scanIntervalSeconds>
                   <httpConnector>
                      <host>localhost</host>
                       <port>9090</port>
